@@ -87,7 +87,7 @@
         <br>
         In this work, we aim to improve visuomotor policies in low-data regimes by first pretraining a WM using optical flow as an embodiment-agnostic action representation to leverage accessible or easily collected data 
         from multiple embodiments (robots, humans). Given a small set of demonstrations on a target embodiment, we finetune the WM on this data to better align the WM predictions, train a base policy, and learn a robust value function. 
-        Using our finetuned WM and value function, our approach evaluates action candidates from the base policy and selects the best one to improve performance. Our approach, which we term Latent Policy Steering (LPS), 
+        Using our finetuned WM and value function, our approach evaluates action candidates from the base policy and selects the best one to improve performance. Our approach, which we term <strong>Latent Policy Steering (LPS)</strong>, 
         improves behavior-cloned policies by 10.6% on average across four Robomimic tasks, even though most of the pretraining data comes from the real world. In the real-world experiments, LPS achieves larger gains: 
         70% relative improvement with 30-50 target-embodiment demonstrations, and 44% relative improvement with 60-100 demonstrations, compared to a behavior-cloned baseline.
 
@@ -96,7 +96,7 @@
     <br><br>
     <hr>
     
-    <h1>The Base Policy (Left) Receives Corrections From Latent Policy Steering (Right)</h1>
+    <h1>The Base Policy (Left) Receives Corrections From LPS (Right)</h1>
     <div class="video-container">
         <iframe src="https://www.youtube.com/embed/KhKqCjTj7NE?si=0OvtmgWTBPOg0Kjr" frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
