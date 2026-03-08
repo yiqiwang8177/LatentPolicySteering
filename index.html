@@ -145,10 +145,10 @@
 
     <br><br>
     <p style="width: 80%;">
-        We explores how does LPS and its embodiment-agnostic pretrained WM performance scale with the number of embodiments in the Robomimic benchmark, by varying its pretraining mixtures and compares to a base policy. We report the relative improvement of the average success rate, across 4 tasks.
-        We observe a promising trend: thanks to the embodiment-agnostic WM, increasing the number of embodiments leads to more usable pretraining data and results in better performance compared to the behavior-cloned baseline. 
+        We explores how does LPS and its embodiment-agnostic pretrained WM performance scale with the number of embodiments in the Robomimic benchmark, by varying its pretraining mixtures and compares to a base policy. 
+        We observe a promising trend: thanks to the embodiment-agnostic WM, <strong>increasing the number of embodiments leads to more usable pretraining data and results in better performance</strong> compared to the behavior-cloned baseline. 
         While embodiment-dependent pretrained policies such as <a href="https://arxiv.org/abs/2409.20537">HPT</a> could also scale with embodiments, we do not compare to it since HPT pretrained with more than 20 embodiments performs sub-optimally given a small amount of finetuning data on the target embodiment, as shown in real-world experiments above.
-        <br>
+        <br><br>
         Besides, the LPS-mix* achieves to improve the base policy by 10.6% in terms of average success rate, despite the evaluation is in the simulation and the majority of the pretrain data are collected in the real world across different robots and human.
         
     </p>
