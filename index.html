@@ -6,7 +6,7 @@
 
 <html lang="en">
 <head>
-  	<title>Latent Policy Steering with<br>Embodiment-Agnostic Pretrained World Models</title>
+  	<title>Latent Policy Steering with Embodiment-Agnostic Pretrained World Models</title>
       <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/
           if you update and want to force Facebook to re-scrape. -->
   	<meta property="og:image" content="Path to my teaser.jpg"/>
@@ -102,7 +102,12 @@
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
     </div>
-
+    <p style="width: 80%;">
+    We compare the base policy's performance aginst the LPS's performance, given similar task initializations. LPS uses the same policy as the base policy baseline. 
+    The red box shows critical moment where the policy starts to diverge from the expert demonstrations. The green box indicates how LPS makes adjustments to the base policy.
+    In the video, the failed attempt from the base policy to pick the radish up is fixed by the LPS, and LPS manages to improve a failure episode of sweeping salads into a more successful episode (it still fails by leaving 2 leaves on the board!). 
+    
+    </p>
     <br><br>
     <hr>
 
